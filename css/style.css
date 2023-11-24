@@ -1,1 +1,63 @@
+/* ----------------------------- */
+/* Header section  */
+/* --------------------------------- */
 
+.header-section {
+  display: flex;
+  font-weight: 400;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 1.3rem 1.1rem 1.3rem;
+  border-bottom: 0.5px solid rgb(205, 196, 196);
+}
+
+.div-logo-navlist {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-logo {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.div-logo-navlist a {
+  text-decoration: none;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.main-nav-list li {
+  list-style: none;
+}
+.main-nav-list li a {
+  text-decoration: none;
+}
+.pricing {
+  display: inline-block;
+  margin-top: 0.3rem;
+}
+
+.sign-in-btn {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav-downward-logo {
+  width: 1.6rem;
+  transform: translate(0%, 10%);
+}
+.gobal-logo {
+  width: 2rem;
+  height: 2rem;
+}
+.login-option a {
+  text-decoration: none;
+}
+.header-tryforfree {
+}

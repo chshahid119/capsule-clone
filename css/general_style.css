@@ -61,9 +61,12 @@ Medium: 11px
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #333;
+  font-family: "Rubik", sans-serif;
 }
 
 html {
+  font-family: "Rubik", sans-serif;
   /* font-size: 10px; */
 
   /* 10px / 16px = 0.625 = 62.5% */
@@ -75,10 +78,19 @@ html {
 }
 
 body {
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
+}
+
+.btn {
+  border-radius: 1.1rem;
+  font-family: "Rubik", sans-serif;
+  background-color: #453dd8;
+  color: #fff;
+  padding: 1rem 1rem 1rem 1rem;
+  border: none;
 }
