@@ -22,16 +22,16 @@ Large: 1.8
 0.75px
 
 --- 02 COLORS
-
-- Primary: #453dd8
+Primary Heading: #0f172a
+- Primary brand color: #453dd8
 - Tints:
-#7873d4
+#3e37c2
 #9f9be1
 
 - Shades: 
 #9f9be1
 #252174
-#0c0b27
+
 
 - Accents:
 - Greys
@@ -61,12 +61,11 @@ Medium: 11px
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #333;
-  font-family: "Rubik", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  color: #0f172a;
 }
 
 html {
-  font-family: "Rubik", sans-serif;
   /* font-size: 10px; */
 
   /* 10px / 16px = 0.625 = 62.5% */
@@ -78,7 +77,6 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
 
@@ -86,11 +84,26 @@ body {
   overflow-x: hidden;
 }
 
-.btn {
-  border-radius: 1.1rem;
-  font-family: "Rubik", sans-serif;
+.primaryBtn {
   background-color: #453dd8;
+  padding: 0.8rem;
   color: #fff;
-  padding: 1rem 1rem 1rem 1rem;
   border: none;
+  border-radius: 1rem;
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  transition: all 0.7s;
+  font-weight: 600;
+}
+.primaryBtn:hover {
+  background-color: #5850dc;
+  transform: scale(1.1);
+}
+
+.removeTextDecoration {
+  text-decoration: none;
+}
+
+.removeListStyle {
+  list-style: none;
 }

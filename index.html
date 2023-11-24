@@ -13,77 +13,81 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&family=Quicksand:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/general_style.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header-section">
-      <div class="div-logo-navlist">
-        <a href="#"><p class="nav-logo">Capsule</p> </a>
+      <div class="header-logo-navlist">
+        <div class="logo">
+          <a class="removeTextDecoration" href="#">Capsule</a>
+        </div>
 
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li>
-              <a href="#"
-                >Features
-                <ion-icon
-                  class="nav-downward-logo"
-                  name="chevron-down-outline"
-                ></ion-icon
-              ></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="navlist-lists removeListStyle">
+              <a class="main-nav-link" class="removeTextDecoration" href="#"
+                >Features</a
+              >
+              <span class="icon-downword"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
             </li>
-            <li><a class="pricing" href="#">Pricing</a></li>
-            <li>
-              <a href="#"
-                >Integerations
-                <ion-icon
-                  class="nav-downward-logo"
-                  name="chevron-down-outline"
-                ></ion-icon
-              ></a>
+            <li class="removeListStyle">
+              <a class="main-nav-link" class="removeTextDecoration" href="#"
+                >Pricing</a
+              >
             </li>
-            <li>
-              <a href="#"
-                >Solutions
-                <ion-icon
-                  class="nav-downward-logo"
-                  name="chevron-down-outline"
-                ></ion-icon
-              ></a>
+            <li class="navlist-lists removeListStyle">
+              <a class="main-nav-link" class="removeTextDecoration" href="#"
+                >Integerations</a
+              >
+              <span class="icon-downword"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
             </li>
-            <li>
-              <a href="#"
-                >Resources
-                <ion-icon
-                  class="nav-downward-logo"
-                  name="chevron-down-outline"
-                ></ion-icon
-              ></a>
+            <li class="navlist-lists removeListStyle">
+              <a class="main-nav-link" class="removeTextDecoration" href="#"
+                >Solutions</a
+              >
+              <span class="icon-downword"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
+            </li>
+            <li class="navlist-lists removeListStyle">
+              <a class="main-nav-link" class="removeTextDecoration" href="#"
+                >Resources</a
+              >
+              <span class="icon-downword"
+                ><ion-icon name="chevron-down-outline"></ion-icon
+              ></span>
             </li>
           </ul>
         </nav>
       </div>
 
-      <div class="sign-in-btn">
-        <div class="globe-logo">
-          <a href="#"
-            ><ion-icon class="gobal-logo" name="globe-outline"></ion-icon
-          ></a>
-          <ion-icon name="chevron-down-outline"></ion-icon>
+      <div class="login-btn-section">
+        <div class="gobal-lang-icon">
+          <ion-icon class="globe-icon" name="globe-outline"></ion-icon>
+          <span class="icon-downword"
+            ><ion-icon name="chevron-down-outline"></ion-icon
+          ></span>
         </div>
         <div class="login-option">
-          <a href="#">Login</a>
+          <li class="login removeListStyle">
+            <a class="main-nav-link" class="removeTextDecoration" href="#"
+              >Login</a
+            >
+          </li>
         </div>
-        <div>
-          <button class="header-tryforfree btn">Try Free</button>
-        </div>
+        <button class="tryfreebtn primaryBtn">Try Free</button>
       </div>
     </header>
   </body>
