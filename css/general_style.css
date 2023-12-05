@@ -32,6 +32,9 @@ Primary Heading: #0f172a
 #9f9be1
 #252174
 
+ Border Collors:
+ #dee2e6
+
 
 - Accents:
 - Greys
@@ -106,4 +109,16 @@ body {
 
 .removeListStyle {
   list-style: none;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }

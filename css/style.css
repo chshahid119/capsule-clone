@@ -6,8 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem 1.5rem 3rem;
-  border-bottom: 0.1rem solid #d2c5c5;
+  padding: 1.5rem 2.5rem 1.3rem 2.5rem;
+  border-bottom: 0.1rem solid #dee2e6;
 }
 /* .logo {
   font-family: "Quicksand", sans-serif;
@@ -79,4 +79,27 @@
   width: 2rem;
   height: 2rem;
   cursor: pointer;
+}
+
+/* ----------------------------- */
+/* Menus Options Sections  */
+/* --------------------------------- */
+
+.overview-menu-options {
+  max-width: 100%;
+  gap: 5rem;
+}
+.list-options-div {
+  justify-content: center;
+}
+
+.mobile-menu-ui {
+  background-color: #f1f5f9;
+}
+.mobile-menu-1st-div {
+  justify-content: center;
+}
+
+.mobile-menu-img {
+  max-width: 20rem;
 }
