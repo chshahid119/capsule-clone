@@ -103,3 +103,7 @@
 .mobile-menu-img {
   max-width: 20rem;
 }
+
+.display {
+  display: none;
+}
