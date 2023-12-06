@@ -122,3 +122,7 @@ body {
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
+}

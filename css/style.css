@@ -85,25 +85,51 @@
 /* Menus Options Sections  */
 /* --------------------------------- */
 
-.overview-menu-options {
-  max-width: 100%;
-  gap: 5rem;
-}
-.list-options-div {
-  justify-content: center;
+.section-navbar-menu-options {
+  background-color: #ffffff;
+  border-bottom: 2px solid blue;
 }
 
-.mobile-menu-ui {
+.menu-options {
+  /* border: 2px solid white; */
+  padding: 0rem 0rem 0rem 10rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.options-heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.options {
+  max-width: 35rem;
+}
+
+.options-description {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  width: 25rem;
+}
+
+.menu-download-options {
   background-color: #f1f5f9;
-}
-.mobile-menu-1st-div {
-  justify-content: center;
+  width: 50rem;
 }
 
-.mobile-menu-img {
-  max-width: 20rem;
+.mobile-download-img {
+  width: 25rem;
 }
 
-.display {
-  display: none;
+.ios-android-free-download {
+  padding: 3rem;
+  font-size: 1.5rem;
+}
+
+.right-arrow {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
