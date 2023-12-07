@@ -8,6 +8,7 @@
   align-items: center;
   padding: 1.5rem 2.5rem 1.3rem 2.5rem;
   border-bottom: 0.1rem solid #dee2e6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 /* .logo {
   font-family: "Quicksand", sans-serif;
@@ -164,11 +165,16 @@
 /* ----------------------------- */
 /* hero Sub Section  */
 /* --------------------------------- */
+.section-main {
+  /* border: 1px solid blue; */
+}
 .hero-section-div {
   display: flex;
-  /* border: 1px solid blue; */
+
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10rem;
 }
 .main-heading-desc {
   display: flex;
@@ -181,20 +187,22 @@
   margin-bottom: 10rem;
   font-weight: 900;
   font-size: 5rem;
+  line-height: 7rem;
 }
 .hero-section-desc {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
-  max-width: 40rem;
+  max-width: 35rem;
+  line-height: 2.5rem;
 }
 .hero-btn-free-trial {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .free-trial {
   font-weight: 500;
   font-size: 1.2rem;
   color: #555;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .hero-try-free-btn {
@@ -202,6 +210,44 @@
   height: 4rem;
 }
 .homepage-main-img {
-  max-width: 47rem;
+  max-width: 48rem;
   display: block;
+}
+
+/* ----------------------------- */
+/* Rating Sub main Section  */
+/* --------------------------------- */
+.customer-stars-section {
+  height: 20rem;
+  /* border: 2px solid red; */
+}
+.customer-section-div {
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-around;
+}
+.customer-review {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.stars {
+  font-size: 1.6rem;
+}
+.star {
+  color: #453dd8;
+}
+
+.cust-comment {
+  font-weight: 600;
+  font-size: 1.7rem;
+  width: 25rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.review-from {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
