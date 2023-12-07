@@ -74,7 +74,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
-  overflow-x: hidden;
+
   /* This scrolling way is not worked on some browsers like safari etc  */
   /* scroll-behavior: smooth; */
 }
@@ -85,6 +85,11 @@ body {
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
+}
+
+.container {
+  max-width: 100rem;
+  margin: auto auto 3rem auto;
 }
 
 .primaryBtn {
@@ -111,9 +116,16 @@ body {
   list-style: none;
 }
 
+.display {
+  display: none;
+}
+
 /* Grids */
 .grid {
   display: grid;
+}
+.grid-1-col {
+  grid-template-columns: 1fr;
 }
 .grid-2-cols {
   grid-template-columns: 3fr 1fr;

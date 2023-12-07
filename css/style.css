@@ -51,7 +51,7 @@
 }
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #8483a0;
+  background-color: #f1f5f9;
 }
 
 .icon-downword {
@@ -86,15 +86,25 @@
 /* --------------------------------- */
 
 .section-navbar-menu-options {
+  /* height: 40rem; */
   background-color: #ffffff;
-  border-bottom: 2px solid blue;
+  overflow-y: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .menu-options {
   /* border: 2px solid white; */
-  padding: 0rem 0rem 0rem 10rem;
+  margin-top: 3rem;
+
+  justify-items: start;
+  align-items: start;
+  height: 30rem;
+}
+
+.options-div {
   justify-items: center;
   align-items: center;
+  border-bottom: 0.1rem solid #dee2e6;
 }
 
 .options-heading {
@@ -103,7 +113,11 @@
   margin-bottom: 0.5rem;
 }
 .options {
-  max-width: 35rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.options:hover {
+  background-color: #f1f5f9;
 }
 
 .options-description {
@@ -115,11 +129,18 @@
 
 .menu-download-options {
   background-color: #f1f5f9;
-  width: 50rem;
+  max-width: 45rem;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
 }
 
 .mobile-download-img {
-  width: 25rem;
+  width: 15rem;
+}
+.menu-download {
+  display: flex;
+  flex-direction: column;
 }
 
 .ios-android-free-download {
@@ -132,4 +153,55 @@
   font-weight: 600;
   font-size: 2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ----------------------------- */
+/* Main Section  */
+/* --------------------------------- */
+.section-main {
+  margin-top: 5rem;
+}
+/* ----------------------------- */
+/* hero Sub Section  */
+/* --------------------------------- */
+.hero-section-div {
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-between;
+  align-items: center;
+}
+.main-heading-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+.hero-main-heading {
+  max-width: 70rem;
+  margin-bottom: 10rem;
+  font-weight: 900;
+  font-size: 5rem;
+}
+.hero-section-desc {
+  font-weight: 500;
+  font-size: 1.5rem;
+  max-width: 40rem;
+}
+.hero-btn-free-trial {
+  margin-top: 2rem;
+}
+.free-trial {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #555;
+  margin-left: 2rem;
+}
+
+.hero-try-free-btn {
+  width: 10rem;
+  height: 4rem;
+}
+.homepage-main-img {
+  max-width: 47rem;
+  display: block;
 }
