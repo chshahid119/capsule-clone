@@ -251,3 +251,19 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
+
+/* ----------------------------- */
+/* Section second heading  */
+/* --------------------------------- */
+
+.second-head-div {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+/* ----------------------------- */
+/* Section Split pane Features  */
+/* --------------------------------- */
