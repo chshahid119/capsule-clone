@@ -267,3 +267,66 @@
 /* ----------------------------- */
 /* Section Split pane Features  */
 /* --------------------------------- */
+
+.section-split-pane-features {
+  margin-top: 10rem;
+}
+.z-features-section-div {
+  margin-top: 10rem;
+  gap: 7rem;
+  justify-items: center;
+  align-items: center;
+}
+.image-detail {
+  font-size: 1.3rem;
+  padding: 3rem;
+  line-height: 1.5;
+}
+.detail-type {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.detail-name {
+  margin-bottom: 1rem;
+}
+
+.learn-more-detail,
+.strong-learn-more {
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #2d47c5;
+  font-weight: 600;
+}
+.strong-learn-more {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out; /* Transition for smooth movement */
+}
+
+.learn-more-detail:hover {
+  color: #5c7cfa;
+}
+.learn-more-detail:hover > .strong-learn-more {
+  transform: translateX(5px);
+}
+
+.z-img-1 {
+  background-color: #def3f4;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.z-img-2 {
+  background-color: #fae7c6;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.z-img-3 {
+  background-color: #ffebef;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.z-img-4 {
+  background-color: #def3f4;
+  padding: 3rem;
+  border-radius: 1rem;
+}
