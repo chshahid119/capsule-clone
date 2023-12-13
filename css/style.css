@@ -543,7 +543,8 @@
 
 .section-moving-images {
   position: relative;
-  height: 43rem;
+  height: 45rem;
+  margin-bottom: 10rem;
 }
 .customer-img {
   width: 43rem;
@@ -552,3 +553,42 @@
   top: 0;
   right: 0;
 }
+
+/* ----------------------------- */
+/* section-testemonials */
+/* --------------------------------- */
+.underline-border {
+  border-bottom: 1px solid #0f172a;
+  width: 7rem;
+  margin: 0 auto 3rem auto;
+}
+.section-testemonials {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10rem;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.testemonial-text {
+  width: 70%;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+.testemonial-author-comapny {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* ----------------------------- */
+/* section-team intro */
+/* --------------------------------- */
