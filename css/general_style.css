@@ -138,3 +138,12 @@ body {
 .margin-bottom {
   margin-bottom: 1.5rem;
 }
+
+.sub-headings {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 1.2;
+}
