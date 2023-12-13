@@ -404,17 +404,65 @@
   /* background-color: aliceblue; */
 }
 
+.intergerated-companies-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .card-logo {
-  background-color: #ecf4fc;
-  width: 25rem;
-  height: 12rem;
+  cursor: pointer;
+  width: 23rem;
+  height: 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .background-color-div {
-  background-color: ;
-  background-color: #ffffff;
-  padding: 2rem;
+  padding: 1.6rem;
   border-radius: 2rem;
+  background-color: #ffffff;
+}
+
+.outlook-div-bg {
+  background-color: #ecf4fc;
+}
+.outlook-img-bg {
+  background-color: #ffffff;
+}
+.mailchimp-div-bg {
+  background-color: #fffcec;
+}
+.mailchimp-img-bg {
+  background-color: #ffe01b;
+}
+.quickbook-div-bg {
+  background-color: #eef7ec;
+}
+.quickbook-img-bg {
+  background-color: #ffffff;
+}
+.sage-div-bg {
+  background-color: #eafcef;
+}
+.sage-img-bg {
+  background-color: #0c0b0b;
+}
+.transpond-div-bg {
+  background-color: #f9f8fe;
+}
+.transpond-img-bg {
+  background-color: #baa5f5;
+}
+.zapier-div-bg {
+  background-color: #fff0ea;
+}
+.zapier-img-bg {
+  background-color: #ff4a00;
+}
+.gmail-div-bg {
+  background-color: #eef8f1;
 }
