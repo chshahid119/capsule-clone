@@ -100,7 +100,8 @@ body {
   border-radius: 1rem;
   font-family: "Quicksand", sans-serif;
   cursor: pointer;
-  transition: all 0.7s;
+  transition: all 0.5s;
+  transform: scale(1);
   font-weight: 600;
 }
 .primaryBtn:hover {
