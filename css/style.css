@@ -592,3 +592,111 @@
 /* ----------------------------- */
 /* section-team intro */
 /* --------------------------------- */
+
+.team-intro-main-div {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  line-height: 2rem;
+  justify-content: space-between;
+}
+.support-team-img {
+  width: 50rem;
+  border-radius: 0.5rem;
+}
+.support-team-desc-div {
+  font-size: 1.4rem;
+  width: 40rem;
+}
+.h1-support-team {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.tutorials-docs {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+}
+
+.support-team-links {
+  /* border: 1px solid yellow; */
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #3e37c2;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.support-team-links:hover {
+  color: #453dd8;
+}
+.btn-team-section {
+  cursor: pointer;
+  margin-top: 3rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 1px solid #0f172a;
+  border-radius: 0.7rem;
+}
+
+.btn-team-section:hover {
+  box-shadow: 0 0 1px 1px #4b5f8e;
+}
+
+/* ----------------------------- */
+/* section-trial intro */
+/* --------------------------------- */
+
+.section-auth-trial {
+  margin: 10rem 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.h2-section-auth-trial {
+  width: 60rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.try-free-btn {
+  text-align: center;
+  padding: 1.3rem 2.5rem;
+  background-color: #453dd8;
+  color: white;
+  font-weight: 600;
+  border-radius: 1rem;
+  border: transparent;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1);
+}
+.try-free-btn:hover {
+  transform: scale(1.1);
+}
+
+.no-card-required {
+  font-size: 1.3rem;
+}
+
+/* ------------------------------------------------------------- */
+/* Footer Section  */
+/* ----------------------------------------------------------------- */
+
+.section-footer-menus {
+  margin-top: 5rem;
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
