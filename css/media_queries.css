@@ -5,3 +5,22 @@
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+@media (max-width: 1218px) {
+  .hero-section-div {
+    background-color: blue;
+  }
+  .z-features-section-div {
+    gap: 0;
+  }
+}
+@media (max-width: 1074px) {
+  .hero-section-div {
+    background-color: rgb(34, 194, 56);
+  }
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+  .z-features-section-div {
+    gap: 0;
+  }
+}

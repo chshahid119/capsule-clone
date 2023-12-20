@@ -171,7 +171,6 @@
 }
 .hero-section-div {
   display: flex;
-
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
@@ -269,7 +268,7 @@
   font-size: 1.3rem;
   padding: 3rem;
   line-height: 1.5;
-  max-width: 50rem;
+  max-width: 40rem;
 }
 .detail-type {
   margin-bottom: 1rem;
@@ -295,25 +294,25 @@
   background-color: #def3f4;
   padding: 3rem;
   border-radius: 1rem;
-  max-width: 40rem;
+  /* max-width: 40rem; */
 }
 .z-img-2 {
   background-color: #fae7c6;
   padding: 3rem;
   border-radius: 1rem;
-  max-width: 40rem;
+  /* max-width: 40rem; */
 }
 .z-img-3 {
   background-color: #ffebef;
   padding: 3rem;
   border-radius: 1rem;
-  max-width: 40rem;
+  /* max-width: 40rem; */
 }
 .z-img-4 {
   background-color: #def3f4;
   padding: 3rem;
   border-radius: 1rem;
-  max-width: 40rem;
+  /* max-width: 40rem; */
 }
 
 /* ----------------------------- */
@@ -353,6 +352,7 @@
 }
 
 .growth-div {
+  max-width: 100%;
   padding: 7rem;
   display: flex;
   justify-content: space-between;
