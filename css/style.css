@@ -218,11 +218,12 @@
 /* Rating Sub main Section  */
 /* --------------------------------- */
 .customer-stars-section {
-  height: 20rem;
+  /* height: 20rem; */
   /* border: 2px solid red; */
 }
 .customer-section-div {
   display: flex;
+  flex-wrap: wrap;
   /* border: 1px solid blue; */
   justify-content: space-around;
 }
@@ -262,13 +263,12 @@
 .z-features-section-div {
   margin: 10rem 0 10rem 0rem;
   gap: 4rem;
-  place-items: start;
+  place-items: center;
 }
 .image-detail {
   font-size: 1.3rem;
   padding: 3rem;
   line-height: 1.5;
-  max-width: 40rem;
 }
 .detail-type {
   margin-bottom: 1rem;
@@ -539,6 +539,7 @@
 
 .customer-stories-btn {
   cursor: pointer;
+  z-index: 10000;
 }
 .inner-rarr {
   transform: scale(1);
@@ -553,7 +554,6 @@
   margin-bottom: 10rem;
 }
 .customer-img {
-  width: 43rem;
   height: 42rem;
   position: absolute;
   top: 0;
@@ -607,12 +607,12 @@
   justify-content: space-between;
 }
 .support-team-img {
-  width: 50rem;
+  max-width: 50rem;
   border-radius: 0.5rem;
 }
 .support-team-desc-div {
   font-size: 1.4rem;
-  width: 40rem;
+  max-width: 40rem;
 }
 .h1-support-team {
   font-weight: 800;
