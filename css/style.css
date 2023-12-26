@@ -707,6 +707,13 @@
   align-items: start;
   font-weight: 500;
   font-size: 1.1rem;
+  gap: 5rem;
+}
+.logo-and-footerlist {
+  display: flex;
+  /* border: 1px solid blue; */
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-list {
@@ -723,6 +730,10 @@
 }
 .footer-list li a:hover {
   text-decoration: underline;
+}
+.footer-social-links a {
+  color: #453dd8;
+  font-weight: 600;
 }
 
 .list-1 {
