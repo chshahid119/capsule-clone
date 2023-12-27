@@ -37,12 +37,19 @@
   .support-team-img {
     max-width: 40rem;
   }
+  .intergerated-companies-cards {
+    justify-content: space-between;
+  }
+  .intergerated-companies-cards > * {
+    flex-basis: calc(50% - 0.5rem); /* Two items per row with gap */
+  }
 }
 
 @media (max-width: 977px) {
   /* mobile navbar css code start */
 
   /* mobile navbar css code end */
+
   .homepage-main-img {
     max-width: 35rem;
   }
