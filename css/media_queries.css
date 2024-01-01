@@ -167,3 +167,32 @@
     margin-left: 2rem;
   }
 }
+
+@media (max-width: 657px){
+  .hero-section-div {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-heading-desc{
+    align-items: center;
+    text-align: center;
+  }
+  .customer-img {
+    width: 30rem;
+    opacity: 0;
+  }
+  .moving-images-div{
+    padding: 5rem 10rem 5rem 10rem;
+    gap: 0rem;
+
+  }
+  .support-team-img {
+    max-width: 55rem;
+}
+.desc-btns {
+  width: 100%;
+ 
+}
+}

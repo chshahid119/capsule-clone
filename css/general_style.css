@@ -61,6 +61,7 @@ Medium: 11px
 */
 
 * {
+  /* border: 2px solid green; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -88,7 +89,7 @@ body {
 }
 
 .container {
-  max-width: 100rem;
+  max-width: 140rem;
   margin: auto auto 3rem auto;
 }
 
