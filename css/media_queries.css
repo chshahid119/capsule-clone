@@ -178,6 +178,13 @@
   .main-heading-desc{
     align-items: center;
     text-align: center;
+    order: 2;
+  }
+  .main-img{
+    order: 1;
+  }
+  .main-img{
+    order: 1;
   }
   .customer-img {
     width: 30rem;
