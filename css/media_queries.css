@@ -187,19 +187,27 @@
     order: 1;
   }
   .customer-img {
-    width: 30rem;
+    width: 25rem;
     opacity: 0;
   }
   .moving-images-div{
-    padding: 5rem 10rem 5rem 10rem;
+    padding: 3.4rem 5rem 3.4rem 5rem;
     gap: 0rem;
 
   }
   .support-team-img {
-    max-width: 55rem;
+    max-width: 100%;
 }
 .desc-btns {
   width: 100%;
  
 }
+.h2-section-auth-trial{
+  width: 100%;
+}
+.growth-head-desc {
+  width: 100%;
+  /* text-align: center; */
+}
+
 }
