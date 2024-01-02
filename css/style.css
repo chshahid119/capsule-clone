@@ -833,7 +833,8 @@ align-self: start;
 }
 .footer-social-links a {
   color: #453dd8;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .list-1 {
