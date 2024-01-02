@@ -7,12 +7,14 @@
   padding: 1rem;
   border-bottom: 0.1rem solid #dee2e6;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  height: 8rem;
+
 }
 .header-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2.5rem 1.3rem 2.5rem;
+ 
 }
 .logo {
   font-family: "Quicksand", sans-serif;
@@ -24,6 +26,7 @@
   /* border: 1px solid red; */
   align-items: center;
   justify-content: space-between;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
 }
 .logo-and-navlist {
   display: flex;
@@ -34,7 +37,7 @@
 }
 .logo {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .responsive-hamburger {
   display: none;
@@ -61,6 +64,7 @@
   font-size: 1.4rem;
   gap: 1.2rem;
 }
+
 
 .navlist-lists {
   display: flex;
@@ -111,7 +115,7 @@
 /* --------------------------------- */
 
 .section-navbar-menu-options {
-  /* height: 40rem; */
+  height: 40rem;
   background-color: #ffffff;
   overflow-y: hidden;
 
@@ -187,6 +191,46 @@
 }
 
 /* ----------------------------- */
+/*  Mobile Navlist Design Section   */
+/* --------------------------------- */
+.hamuger-navbar{
+  padding: 0.5rem 2rem;
+}
+.lang-globe{
+  display: flex;
+  border: 1px solid rgb(191, 191, 196);
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+
+}
+.lang-globe .icon-downword{
+align-self: start;
+}
+
+.mobile-navlist{
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.mobile-navlist .mob-navlist-item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid rgb(191, 191, 196);
+}
+.icon-downword{
+  font-size: 2rem;
+}
+.mobile-navlist .mob-navlist-item a{
+  text-decoration: none;
+}
+
+
+/* ----------------------------- */
 /* Main Section  */
 /* --------------------------------- */
 .section-main {
@@ -198,6 +242,7 @@
 .section-main {
   /* border: 1px solid blue; */
 }
+
 .hero-section-div {
   display: flex;
   padding: 1rem;

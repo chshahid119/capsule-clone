@@ -67,6 +67,7 @@ Medium: 11px
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   color: #0f172a;
+  
 }
 
 html {
@@ -77,7 +78,7 @@ html {
   font-size: 62.5%;
 
   /* This scrolling way is not worked on some browsers like safari etc  */
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -118,9 +119,10 @@ body {
   list-style: none;
 }
 
-.display {
+.displayNone {
   display: none;
 }
+
 
 /* Grids */
 .grid {
@@ -140,6 +142,10 @@ body {
 .margin-bottom {
   margin-bottom: 1.5rem;
 }
+.margin-top{
+ margin-top: 20rem;
+
+}
 
 .sub-headings {
   display: flex;
@@ -149,3 +155,9 @@ body {
   margin-top: 4rem;
   line-height: 1.2;
 }
+
+/* *:focus {
+  outline: none;
+
+  box-shadow: 0 0 0 0.8rem #3e37c2;
+} */

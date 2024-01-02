@@ -53,39 +53,15 @@
     align-items: center;
     justify-content: space-between;
   }
-
-  .responsive-hamburger {
-    /* border: 1px solid blue; */
+  .nav-list{
+    display: none;
+  }
+  .login-btn-section{
+    display: none;
+  }
+  .responsive-hamburger{
     display: block;
-    display: flex;
-    padding: 1.5rem;
   }
-
-  .navbar-main-container {
-    flex-direction: column;
-  }
-  .logo-and-navlist {
-    flex-direction: column;
-    align-items: start;
-    gap: 0rem;
-  }
-  .nav-list {
-    display: none;
-    border: 1px solid yellow;
-    flex-direction: column;
-    position: absolute;
-    width: 30rem;
-    top: 8rem;
-    align-items: start;
-    gap: 1rem;
-  }
-  .login-btn-section {
-    display: none;
-    position: absolute;
-    top: 20rem;
-    width: 30rem;
-  }
-
   /* mobile navbar css code end */
 
   .homepage-main-img {
