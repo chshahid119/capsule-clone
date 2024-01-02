@@ -1,7 +1,7 @@
 // Implementations for hamburger working 
 hamburgerBtn=document.querySelector(".responsive-hamburger")
 mobileMenu=document.querySelector(".hamburger-navbar")
-// section_header=document.querySelector(".section-header")
+
 hero_section=document.querySelector(".hero-section")
 section_header=document.querySelector('.section-header')
 
@@ -15,12 +15,12 @@ hamburgerBtn.addEventListener("click",()=>{
 
 
 // We cannot use that method to make our navbar sticky because it changes due to viewport according to device 
-window.addEventListener('scroll',function(){
-    console.log(window.scrollY)
-    if(window.scrollY > 20){
-        section_header.style.position="sticky"
-    }
-})
+// window.addEventListener('scroll',function(){
+//     console.log(window.scrollY)
+//     if(window.scrollY > 20){
+//         section_header.style.position="sticky"
+//     }
+// })
 
 
 
@@ -55,6 +55,29 @@ allLinks.forEach(function (link) {
     }
   });
 });
+
+
+
+// Sticky Navigation bar 
+// The Element which we want to observe Here (sectionHeroEl)
+const sectionHeroEl = document.querySelector(".hero-section");
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+
+    if (ent.isIntersecting === false) {
+        section_header.classList.add("sticky");
+    } else if (ent.isIntersecting === true) {
+        section_header.classList.remove("sticky");
+    }
+  },
+  {
+    root: null,
+    threshold: 1,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHeroEl);
 
 
 // Fixing flexbox gap property missing in some Safari Version
