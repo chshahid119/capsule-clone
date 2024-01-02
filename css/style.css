@@ -193,12 +193,12 @@
 /* ----------------------------- */
 /*  Mobile Navlist Design Section   */
 /* --------------------------------- */
-.hamuger-navbar{
+.hamburger-navbar{
   padding: 0.5rem 2rem;
 }
 .lang-globe{
   display: flex;
-  border: 1px solid rgb(191, 191, 196);
+  border: 1px solid rgba(208, 208, 218,0.7);
   align-items: center;
   gap: 0.7rem;
   font-size: 1.5rem;
@@ -222,13 +222,35 @@ align-self: start;
   padding: 1rem 0.5rem;
   border-bottom: 1px solid rgb(191, 191, 196);
 }
-.icon-downword{
-  font-size: 2rem;
+.mob-navlist-item ion-icon {
+  font-size: 24px; /* Adjust the size as needed */
 }
 .mobile-navlist .mob-navlist-item a{
   text-decoration: none;
 }
-
+.mob-login-tryfree{
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding: 0.5rem 2rem;
+}
+.mob-tryfree{
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  background-color: #453dd8;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  transform: scale(1);
+}
+.mob-tryfree:hover {
+  background-color: #5850dc;
+  transform: scale(1.1);
+}
 
 /* ----------------------------- */
 /* Main Section  */

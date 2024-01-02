@@ -1,8 +1,11 @@
 // Implementations for hamburger working 
 hamburgerBtn=document.querySelector(".responsive-hamburger")
+mobileMenu=document.querySelector(".hamburger-navbar")
 
 hamburgerBtn.addEventListener("click",()=>{
     console.log("helloWorld")
+    mobileMenu.classList.toggle("displayNone")
+   
     
 })
 

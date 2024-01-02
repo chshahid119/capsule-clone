@@ -123,6 +123,9 @@ body {
   display: none;
 }
 
+.textAlign{
+  text-align: center;
+}
 
 /* Grids */
 .grid {
