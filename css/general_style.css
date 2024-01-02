@@ -78,7 +78,7 @@ html {
   font-size: 62.5%;
 
   /* This scrolling way is not worked on some browsers like safari etc  */
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -87,6 +87,11 @@ body {
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  opacity: 1000;
 }
 
 .container {

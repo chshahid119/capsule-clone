@@ -5,6 +5,8 @@
   justify-content: space-between;
   /* border: 1px solid black; */
   padding: 1rem;
+  /* top: 1rem; */
+  background-color: #FFFFFF;
   border-bottom: 0.1rem solid #dee2e6;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   height: 8rem;
@@ -233,6 +235,9 @@ align-self: start;
   margin-top: 3rem;
   padding: 0.5rem 2rem;
 }
+.mob-login a{
+ text-decoration: none;
+}
 .mob-tryfree{
   cursor: pointer;
   margin-top: 2rem;
@@ -249,7 +254,7 @@ align-self: start;
 }
 .mob-tryfree:hover {
   background-color: #5850dc;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 /* ----------------------------- */
