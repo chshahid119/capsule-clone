@@ -67,7 +67,6 @@ Medium: 11px
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   color: #0f172a;
-  
 }
 
 html {
@@ -88,7 +87,7 @@ body {
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
-.sticky{
+.sticky {
   position: sticky;
   top: 0;
   opacity: 1000;
@@ -128,7 +127,7 @@ body {
   display: none;
 }
 
-.textAlign{
+.textAlign {
   text-align: center;
 }
 
@@ -150,9 +149,8 @@ body {
 .margin-bottom {
   margin-bottom: 1.5rem;
 }
-.margin-top{
- margin-top: 20rem;
-
+.margin-top {
+  margin-top: 20rem;
 }
 
 .sub-headings {

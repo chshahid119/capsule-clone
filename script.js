@@ -1,20 +1,18 @@
-// Implementations for hamburger working 
-hamburgerBtn=document.querySelector(".responsive-hamburger")
-mobileMenu=document.querySelector(".hamburger-navbar")
+// Implementations for hamburger working
+hamburgerBtn = document.querySelector(".responsive-hamburger");
+mobileMenu = document.querySelector(".hamburger-navbar");
 
-hero_section=document.querySelector(".hero-section")
-section_header=document.querySelector('.section-header')
+hero_section = document.querySelector(".hero-section");
+section_header = document.querySelector(".section-header");
 
-hamburgerBtn.addEventListener("click",()=>{
-    console.log("helloWorld")
-    mobileMenu.classList.toggle("displayNone")   
-})
+hamburgerBtn.addEventListener("click", () => {
+  console.log("helloWorld");
+  mobileMenu.classList.toggle("displayNone");
+});
 
+// Sticky Navigation Bar Implemetation
 
-// Sticky Navigation Bar Implemetation 
-
-
-// We cannot use that method to make our navbar sticky because it changes due to viewport according to device 
+// We cannot use that method to make our navbar sticky because it changes due to viewport according to device
 // window.addEventListener('scroll',function(){
 //     console.log(window.scrollY)
 //     if(window.scrollY > 20){
@@ -22,10 +20,7 @@ hamburgerBtn.addEventListener("click",()=>{
 //     }
 // })
 
-
-
-
-// Smooth Scrolling for all types of navigations 
+// Smooth Scrolling for all types of navigations
 const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
@@ -56,9 +51,7 @@ allLinks.forEach(function (link) {
   });
 });
 
-
-
-// Sticky Navigation bar 
+// Sticky Navigation bar
 // The Element which we want to observe Here (sectionHeroEl)
 const sectionHeroEl = document.querySelector(".hero-section");
 const obs = new IntersectionObserver(
@@ -66,9 +59,9 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
 
     if (ent.isIntersecting === false) {
-        section_header.classList.add("sticky");
+      section_header.classList.add("sticky");
     } else if (ent.isIntersecting === true) {
-        section_header.classList.remove("sticky");
+      section_header.classList.remove("sticky");
     }
   },
   {
@@ -79,24 +72,21 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 
-
 // Fixing flexbox gap property missing in some Safari Version
 function checkFlexGap() {
-    var flex = document.createElement("div");
-    flex.style.display = "flex";
-    flex.style.flexDirection = "column";
-    flex.style.rowGap = "1px";
-  
-    flex.appendChild(document.createElement("div"));
-    flex.appendChild(document.createElement("div"));
-  
-    document.body.appendChild(flex);
-    var isSupported = flex.scrollHeight === 1;
-    flex.parentNode.removeChild(flex);
-  
-    if (!isSupported) document.body.classList.add("no-flexboox-gap");
-  }
-  
-  checkFlexGap();
+  var flex = document.createElement("div");
+  flex.style.display = "flex";
+  flex.style.flexDirection = "column";
+  flex.style.rowGap = "1px";
 
+  flex.appendChild(document.createElement("div"));
+  flex.appendChild(document.createElement("div"));
 
+  document.body.appendChild(flex);
+  var isSupported = flex.scrollHeight === 1;
+  flex.parentNode.removeChild(flex);
+
+  if (!isSupported) document.body.classList.add("no-flexboox-gap");
+}
+
+checkFlexGap();
