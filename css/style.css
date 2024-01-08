@@ -192,8 +192,6 @@
 /* --------------------------------- */
 .hamburger-navbar {
   padding: 0.5rem 2rem;
-
-  transition: transform 0.3s;
   animation: moveInBottom 1s ease-in-out;
 }
 
@@ -274,9 +272,6 @@
 /* ----------------------------- */
 /* hero Sub Section  */
 /* --------------------------------- */
-.section-main {
-  /* border: 1px solid blue; */
-}
 
 .hero-section-div {
   display: flex;
@@ -284,6 +279,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10rem;
+  transition: all 3s;
 }
 .main-heading-desc {
   display: flex;

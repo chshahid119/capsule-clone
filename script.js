@@ -6,7 +6,6 @@ hero_section = document.querySelector(".hero-section");
 section_header = document.querySelector(".section-header");
 
 hamburgerBtn.addEventListener("click", () => {
-  // console.log("helloWorld");
   mobileMenu.classList.toggle("displayNone");
 });
 
