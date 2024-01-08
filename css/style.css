@@ -192,6 +192,20 @@
 /* --------------------------------- */
 .hamburger-navbar {
   padding: 0.5rem 2rem;
+
+  transition: transform 0.3s;
+  animation: moveInBottom 1s ease-in-out;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-80%);
+  }
 }
 .lang-globe {
   display: flex;

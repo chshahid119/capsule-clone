@@ -6,8 +6,9 @@ hero_section = document.querySelector(".hero-section");
 section_header = document.querySelector(".section-header");
 
 hamburgerBtn.addEventListener("click", () => {
-  console.log("helloWorld");
+  // console.log("helloWorld");
   mobileMenu.classList.toggle("displayNone");
+  mobileMenu.classList.toggle("animation-come-in-bottom");
 });
 
 // Sticky Navigation Bar Implemetation
