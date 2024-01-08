@@ -53,13 +53,13 @@
     align-items: center;
     justify-content: space-between;
   }
-  .nav-list{
+  .nav-list {
     display: none;
   }
-  .login-btn-section{
+  .login-btn-section {
     display: none;
   }
-  .responsive-hamburger{
+  .responsive-hamburger {
     display: block;
   }
   /* mobile navbar css code end */
@@ -144,46 +144,43 @@
   }
 }
 
-@media (max-width: 657px){
+@media (max-width: 657px) {
   .hero-section-div {
     flex-direction: column;
     gap: 3rem;
     align-items: center;
     justify-content: center;
   }
-  .main-heading-desc{
+  .main-heading-desc {
     align-items: center;
     text-align: center;
     order: 2;
   }
-  .main-img{
+  .main-img {
     order: 1;
   }
-  .main-img{
+  .main-img {
     order: 1;
   }
   .customer-img {
     width: 25rem;
     opacity: 0;
   }
-  .moving-images-div{
+  .moving-images-div {
     padding: 3.4rem 5rem 3.4rem 5rem;
     gap: 0rem;
-
   }
   .support-team-img {
     max-width: 100%;
-}
-.desc-btns {
-  width: 100%;
- 
-}
-.h2-section-auth-trial{
-  width: 100%;
-}
-.growth-head-desc {
-  width: 100%;
-  /* text-align: center; */
-}
-
+  }
+  .desc-btns {
+    width: 100%;
+  }
+  .h2-section-auth-trial {
+    width: 100%;
+  }
+  .growth-head-desc {
+    width: 100%;
+    /* text-align: center; */
+  }
 }
